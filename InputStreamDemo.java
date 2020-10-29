@@ -1,3 +1,4 @@
+#Note: Provide an Input file called ABC.txt
 import java.io.*;                                                                    
 public class InputStreamDemo                                                             
 {                                                                                    
@@ -6,7 +7,7 @@ public class InputStreamDemo
                                                                      
         // initializing FileInputStream  
         try {
-            FileInputStream geek = new FileInputStream("F:\\Courses\\Programming\\Java\\ABC.txt");       
+            FileInputStream geek = new FileInputStream("ABC.txt");       
             System.out.println("File opened...");                                                                    
             // Initializing InputStreamReader object                     
             InputStreamReader in_strm = new InputStreamReader(geek);                                                         
