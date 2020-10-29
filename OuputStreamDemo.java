@@ -4,7 +4,7 @@ class OutputStreamDemo
 {                                                                
     public static void main(String args[])throws Exception       
     {                                                            
-        OutputStream os = new FileOutputStream("F:\\Courses\\Programming\\Java\\output.txt");      
+        OutputStream os = new FileOutputStream("output.txt");      
         byte b[] = {65, 66, 67, 68, 69, 70};                     
                                                                  
         //illustrating write(byte[] b) method                    
